@@ -17,11 +17,11 @@
           "tag:Name": "bfd-mgmt-vpn-private"
         }
       },
-      "ami_name": "bfd-etl-{{isotime \"20060102030405\"}}",
+      "ami_name": "bfd-fhir-{{isotime \"20060102030405\"}}",
       "ssh_pty": true,
       "tags": {
         "Name": "bfd-etl-{{isotime \"20060102030405\"}}",
-        "Application": "bfd-etl"
+        "Application": "bfd-fhir"
       }
     }
   ],
